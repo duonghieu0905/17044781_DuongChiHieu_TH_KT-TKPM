@@ -1,0 +1,6 @@
+D:\C#\ClientServerTelnet\Client\bin\Debug\Client.exe.config
+D:\C#\ClientServerTelnet\Client\bin\Debug\Client.exe
+D:\C#\ClientServerTelnet\Client\bin\Debug\Client.pdb
+D:\C#\ClientServerTelnet\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\C#\ClientServerTelnet\Client\obj\Debug\Client.exe
+D:\C#\ClientServerTelnet\Client\obj\Debug\Client.pdb
