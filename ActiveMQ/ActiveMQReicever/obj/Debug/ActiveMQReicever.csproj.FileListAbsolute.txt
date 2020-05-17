@@ -1,0 +1,10 @@
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\bin\Debug\ActiveMQReicever.exe.config
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\bin\Debug\ActiveMQReicever.exe
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\bin\Debug\ActiveMQReicever.pdb
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\bin\Debug\Apache.NMS.ActiveMQ.dll
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\bin\Debug\Apache.NMS.dll
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\obj\Debug\ActiveMQReicever.csproj.CoreCompileInputs.cache
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\obj\Debug\ActiveMQReicever.csproj.CopyComplete
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\obj\Debug\ActiveMQReicever.exe
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\obj\Debug\ActiveMQReicever.pdb
+E:\C# Kien truc\ActiveMQ\ActiveMQReicever\obj\Debug\ActiveMQReicever.csprojAssemblyReference.cache

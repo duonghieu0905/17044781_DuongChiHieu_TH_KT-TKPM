@@ -1,0 +1,10 @@
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\bin\Debug\ActiveMQSender.exe.config
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\bin\Debug\ActiveMQSender.exe
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\bin\Debug\ActiveMQSender.pdb
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\bin\Debug\Apache.NMS.ActiveMQ.dll
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\bin\Debug\Apache.NMS.dll
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\obj\Debug\ActiveMQSender.csproj.CoreCompileInputs.cache
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\obj\Debug\ActiveMQSender.csproj.CopyComplete
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\obj\Debug\ActiveMQSender.exe
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\obj\Debug\ActiveMQSender.pdb
+E:\C# Kien truc\ActiveMQ\ActiveMQSender\obj\Debug\ActiveMQSender.csprojAssemblyReference.cache
