@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace Entities
 {
-    [Serializable,XmlRoot("eBenhNhan")]
+    [Serializable]
     public class eBenhNhan
     {
         public string MSBN { get; set; }

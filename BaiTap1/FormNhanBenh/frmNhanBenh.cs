@@ -27,8 +27,14 @@ namespace FormNhanBenh
             connection.Start();
             ISession session = connection.CreateSession(AcknowledgementMode.AutoAcknowledge);
             ActiveMQTopic topic = new ActiveMQTopic("DuongChiHieu_17044781_Topic");
+
             IMessageProducer producer = session.CreateProducer(topic);
-            producer.Send(new ConvertXML<eBenhNhan>().O2XML(bn));
+            string x = new ConvertXML<eBenhNhan>().O2XML(bn);
+            ActiveMQTextMessage mes = new ActiveMQTextMessage(x);
+            producer.Send(mes);
+            producer.Close();
+            session.Close();
+            connection.Close();
         }
         private void SendThongTinQueue(eBenhNhan bn)
         {
@@ -38,7 +44,9 @@ namespace FormNhanBenh
             ISession session = connection.CreateSession(AcknowledgementMode.AutoAcknowledge);
             ActiveMQQueue queue = new ActiveMQQueue("DuongChiHieu_17044781_Queue");
             IMessageProducer producer = session.CreateProducer(queue);
-            producer.Send(new ConvertXML<eBenhNhan>().O2XML(bn));
+            string x = new ConvertXML<eBenhNhan>().O2XML(bn);
+            ActiveMQTextMessage mes = new ActiveMQTextMessage(x);
+            producer.Send(mes);
             producer.Close();
             session.Close();
             connection.Close();

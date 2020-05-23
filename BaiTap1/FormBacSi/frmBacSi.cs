@@ -40,13 +40,13 @@ namespace FormBacSi
         private void Consumerqueue_Listener(IMessage message)
         {
             ActiveMQTextMessage text = message as ActiveMQTextMessage;
-             e = new ConvertXML<eBenhNhan>().XML2O(text.Text);
+             e = new ConvertXML<eBenhNhan>().XML2O(text.Text.ToString());
             AddToTreeQueue(e.MSBN);
         }
 
         private void ReceiverThongTinTopic()
         {
-            IConnectionFactory factory = new ConnectionFactory("tcp://localhost:61616");
+            IConnectionFactory factory = new ConnectionFactory("tcp://localhost:61616"); 
             IConnection connection = factory.CreateConnection("admin", "admin");
             connection.Start();
             ISession session = connection.CreateSession(AcknowledgementMode.AutoAcknowledge);
@@ -58,8 +58,8 @@ namespace FormBacSi
         private void Consumertopic_Listener(IMessage message)
         {
            
-            var text = message as ActiveMQTextMessage;
-             e = new ConvertXML<eBenhNhan>().XML2O(text.Text);
+            ActiveMQTextMessage text = message as ActiveMQTextMessage;
+             e = new ConvertXML<eBenhNhan>().XML2O(text.Text.ToString());
             AddToTreeTopic(e.MSBN);
         }
         private void AddToTreeTopic(string s)
