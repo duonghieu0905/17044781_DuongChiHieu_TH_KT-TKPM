@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormBacSi", "FormBacSi\Form
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{6078B6A7-F2E1-48BC-9CED-2B6CA8D338AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{EFD5F1C7-16F7-4344-8955-06643629ED0A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{6078B6A7-F2E1-48BC-9CED-2B6CA8D338AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6078B6A7-F2E1-48BC-9CED-2B6CA8D338AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6078B6A7-F2E1-48BC-9CED-2B6CA8D338AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFD5F1C7-16F7-4344-8955-06643629ED0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFD5F1C7-16F7-4344-8955-06643629ED0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFD5F1C7-16F7-4344-8955-06643629ED0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFD5F1C7-16F7-4344-8955-06643629ED0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
